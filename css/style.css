@@ -21,6 +21,11 @@ nav .brand-logo {
     padding: 15px 0;
 }
 
+.inventory-img {
+  max-height: 500px;
+  padding: 15px 0;
+}
+
 
 p {
   line-height: 2rem;
