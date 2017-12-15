@@ -1,80 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AZP Capital</title>
 
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-
-	 <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
+ <!-- Dropdown Structure -->
+ <div class="navbar-fixed scrollspy" id="home">
+ <nav class="white" role="navigation">
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!" class="blue-text text-darken-4">Investors</a></li>   
+  <li><a href="#!" class="blue-text text-darken-4">News and Events</a></li>
+  <li><a href="#!" class="blue-text text-darken-4">Blog</a></li>
+  <li class="divider" class="blue-text text-darken-4"></li>
+   <li><a href="#!" class="blue-text text-darken-4">Inventory</a></li>
+</ul>
 
-	<div class="parallax-container">
-    <div class="parallax"><img src="assets/images/neighborhood.jpg"></div>
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo"><img  class="logo-img" src="assets/images/logos/logo_3.png"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#home" class="blue-text text-darken-4">About</a></li>
+      <li><a href="#connect" class="blue-text text-darken-4 ">Contact</a></li>
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button blue-text text-darken-4" href="#!" data-activates="dropdown1">More<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+ 
+    <ul id="nav-mobile" class="side-nav">
+        <li><a href="#home">About</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+     </div>
+  </nav>
+</div>
+
+<!-- </nav> -->
+        
+
+  <!-- <nav class="white" role="navigation">
+    <div class="nav-wrapper container">  
+       <a id="logo-container" href="#" class="brand-logo"><img  class="logo-img" src="assets/images/logos/logo_3.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About</a></li>
+      </ul>   
+
+       <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+       -->
+
+
+    
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <img  id="logo-img2" src="assets/images/logos/logo_3.png">
+        <div class="row left">
+          <h5 class="header col s6 light" id="bi2">An Arizona Real Estate Investment firm, specializing in acquiring Non-Performing 1st Trust Deed, Mortgages and REO’s secured by residential properties nationwide.</h5>
+        </div>
+        <!-- <div class="row left">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
       <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-4"><i class="material-icons">description</i></h2>
+            <h5 class="center">Notes</h5>
+
+            <p class="light">We buy non-peforming notes with the goal of keeping borrowers in their homes and achieving reperformance. We incorporate a third-party credit counselor in our loss mitigation strategy that has enabled us to achieve better than industry average results.</p>
+          </div>
         </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-4"><i class="material-icons">build</i></h2>
+            <h5 class="center">Fix and Flips</h5>
+
+            <p class="light">In specific markets we have construction crews in place that have enabled us to engage in light to heavy rehab projects. Once the properties are fixed up we have several exit strategies including: selling on the open market, seller finance, lease option, and keeping as a long term rental</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-4"><i class="material-icons">account_balance</i></h2>
+            <h5 class="center">Seller Finance and Lease Options</h5>
+
+            <p class="light">Our favorite exit strategy is creating seller financed notes and lease options. These are great cash flowing investments and an excellent way to achieve passive income. Often times our borrowers will refinance our notes with convential lending, providing us higher than expected returns.</p>
           </div>
         </div>
       </div>
-    </form>
-  </div>
+
     </div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="assets/images/house-for-sale.jpg"></div>
-  </div>
-      
 
-	 
-	
-</body>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 class="blue-text text-darken-4">Mission Statement</h4>
+          <p class="left-align light">Our mission is to achieve unrivaled satisfaction to all we engage. From our acquisition partners to our third party vendors, strategic alliances and partnerships we strive to maintain a mutually beneficial and rewarding relationship.</p>
+          <p class="left-align light">To the distressed borrower, we strive to provide a unique and unparalleled experience, through effective communication and dialogue aimed at creating positive solutions that satisfy your needs.</p>
+          <p class="left-align light">To our investors and joint venture partners, we are committed to provide superior service and performance and most important, provide security with your investment and confidence in our firm.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Our Approach</h5>
+          <p class="grey-text text-lighten-4">AZP Capital, LLC is a woman owned business. We engage in fair business
+          practices and equal housing oportunity. We treat our borrowers and tenants with diginity and respect. 
+          We treat our investors money as if it were our own.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <!-- <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul> -->
+        </div>
+        <div class="col l6 s12">
+          <div class="scrollspy" id="connect">
+          <h5 class="white-text">Connect</h5>
+        </div>
+          <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">place</i></div>
+      <div class="collapsible-body"><span>4140 E. Baseline Rd, Suite 101, Mesa, AZ 85206</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">phone</i></div>
+      <div class="collapsible-body"><span>480-626-2885</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">email</i></div>
+      <div class="collapsible-body"><span>info@azpcapital.com</span></div>
+    </li>
+  </ul>
+        
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+     <!--  Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> -->
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
