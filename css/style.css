@@ -22,8 +22,12 @@ nav .brand-logo {
 }
 
 .inventory-img {
-  max-height: 500px;
-  padding: 15px 0;
+  max-height: 400px;
+  padding: 15px 0 0 15px;
+}
+
+.img-text {
+  margin: 15px 0 15px 15px;
 }
 
 
