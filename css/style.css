@@ -11,6 +11,11 @@ nav .brand-logo {
   color: #444;
 }
 
+.inv-img {
+    max-height: 300px;
+    width: auto;
+}
+
 .logo-img {
     max-height: 64px;
     padding: 15px 0;

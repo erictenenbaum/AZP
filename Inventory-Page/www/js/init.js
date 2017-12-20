@@ -3,6 +3,7 @@
 
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
+	$('.collapsible').collapsible();
 
     /*** Animate word ***/
 

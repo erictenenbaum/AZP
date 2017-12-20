@@ -4,7 +4,10 @@
  * Made By Joash Pereira
  * Thanks for MaterializeCSS.com
  */
-
+.inv-img {
+    max-height: 500px;
+    width: auto;
+}
 .default_color{background-color: #2196F3 !important}
 
 .default_color_text{color: #2196F3 !important}
