@@ -1,9 +1,23 @@
+
 (function($){
   $(function(){
 
     $('.button-collapse').sideNav();
-	$('.scrollspy').scrollSpy();
-	$('.collapsible').collapsible();
+    $('.parallax').parallax();
+    $('.collapsible').collapsible();
+    $(".dropdown-button").dropdown();
+     $('.scrollspy').scrollSpy();
+      
+
+  }); // end of document ready
+})(jQuery);
+
+(function($){
+  $(function(){
+
+    // $('.button-collapse').sideNav();
+	// $('.scrollspy').scrollSpy();
+	// $('.collapsible').collapsible();
 
     /*** Animate word ***/
 
